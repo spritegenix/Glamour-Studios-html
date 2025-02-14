@@ -5,7 +5,7 @@ template - https://html.themeori.net/barbex/index.html
 github link - 
 
 
-Refence -  https://spritegenix.github.io/glamourlook/
+Reference -  https://spritegenix.github.io/glamourlook/
 
 About Us - Glamour Studios
 
