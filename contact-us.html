@@ -75,7 +75,7 @@
                   <li><a href="/#about">About</a></li>
                   <li><a href="/#services">Services</a></li>
                   <li><a href="/#menu">Menu</a></li>
-                  <li><a href="/contact-us.html">Contact Us</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
               </div>
               <div class="header__area-menubar-right-box">
@@ -84,7 +84,7 @@
                   <div class="header__area-menubar-right-box-search-box"></div>
                 </div>
                 <div class="header__area-menubar-right-box-btn">
-                  <a href="/contact-us.html" class="theme-banner-btn"
+                  <a href="contact-us.html" class="theme-banner-btn"
                     >Booking Now<i class="far fa-angle-double-right"></i
                   ></a>
                 </div>
@@ -105,7 +105,7 @@
               <div class="page__banner-title-menu">
                 <ul>
                   <li><a href="#">Home</a></li>
-                  <li><span>_</span>Contact</li>
+                  <li><span>-</span>Contact</li>
                 </ul>
               </div>
             </div>
@@ -164,7 +164,7 @@
           <div class="col-xl-12">
             <div class="contact__area-bottom">
               <div class="contact__area-bottom-form page">
-                <form action="#">
+                <form action="mail.php" method="POST" id="contact-form">
                   <div class="row">
                     <div class="col-sm-12 mb-30">
                       <div class="contact__area-bottom-form-item">
@@ -207,10 +207,11 @@
                     </div>
                     <div class="col-sm-12">
                       <div class="contact__area-bottom-form-item">
-                        <button class="theme-banner-btn" type="submit">
-                          Submit Now<i class="far fa-angle-double-right"></i>
+                        <button class="theme-banner-btn" type="submit" id="contact-button">
+                          Send Message<i class="far fa-angle-double-right"></i>
                         </button>
                       </div>
+                      <div class="ajax-response"></div>
                     </div>
                   </div>
                 </form>
@@ -303,6 +304,7 @@
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <!-- Mean menu -->
     <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
   </body>
